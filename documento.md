@@ -34,10 +34,10 @@ Los modelos Cliente/Servidor más comunes son los siguientes:
 
 ## Parte 2 - Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
 
-* Para interpretar JavaScript en web los navegadores incluyen un motor que permite que el codigo se ejecute. 
-El compilador traduce el código fuente a bytecode de la manera más rápida posible y este bytecode es lo que el intérprete ejecuta. 
-El sistema también cuenta con un «Profiler» que analiza las operaciones e identifica el código que se puede optimizar para mejorar el rendimiento. 
-Por último, las secciones de bytecode son remplazadas por el código optimizado, lo que hace que el código mejore a medida que se ejecuta. 
+* Para interpretar JavaScript en web los navegadores incluyen un motor que permite que el codigo se ejecute.
+El compilador traduce el código fuente a bytecode de la manera más rápida posible y este bytecode es lo que el intérprete ejecuta.
+El sistema también cuenta con un «Profiler» que analiza las operaciones e identifica el código que se puede optimizar para mejorar el rendimiento.
+Por último, las secciones de bytecode son remplazadas por el código optimizado, lo que hace que el código mejore a medida que se ejecuta.
 
 * Los navegadores compatibles con JavaScript y sus respectivos motores son los siguientes:
     - **Firefox**: SpiderMonkey.
@@ -125,7 +125,7 @@ Los lenguajes de programación en Entorno Cliente mas usados son:
 
 ## Parte 4 - Características de los Lenguajes de Script. Ventajas y Desventajas:
 
-Para entender qué es lo que caracteriza a los lenguajes de Script, será de gran ayuda conocer en que se diferencia de los lenguajes de programación tradicionales. 
+Para entender qué es lo que caracteriza a los lenguajes de Script, será de gran ayuda conocer en que se diferencia de los lenguajes de programación tradicionales.
 
 Tradicionalmente, el programador escribe un texto fuente que, posteriormente, se convierte en código binario. Como traductor entre ambos archivos se utiliza el llamado compilador. Por tanto, se ultilizan dos archivos: el archivo del texto fuente escrito por el programador y un archivo binario que se genera a partir de él y es el que se ejecuta directamente en el ordenador.
 
