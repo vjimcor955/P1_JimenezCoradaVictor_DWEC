@@ -1,7 +1,8 @@
 ---
 marp: true
 theme: uncover
-font-size: 35px text-align: left
+font-size: 35px 
+ text-align: left
 ---
 
 ![bg opacity:.6](img/analysis.jpg)
