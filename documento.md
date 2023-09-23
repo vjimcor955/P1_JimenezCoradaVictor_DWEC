@@ -7,16 +7,16 @@ Durante el desarrollo de este documento se responderán las preguntras planteada
 <br>
 
 # Indice:
-### 1. Modelos de Programación en Entornos Cliente/Servidor.
-### 2. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web.
-### 3. Lenguajes de Programación en Entorno Cliente.
-### 4. Características de los Lenguajes de Script. Ventajas y Desventajas.
-### 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML.
-### 6. Herramientas de Programación.
+### 1. [Modelos de Programación en Entornos Cliente/Servidor.](#id1)
+### 2. [Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web.](#id2)
+### 3. [Lenguajes de Programación en Entorno Cliente.](#id3)
+### 4. [Características de los Lenguajes de Script. Ventajas y Desventajas.](#id4)
+### 5. [Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML.](#id5)
+### 6. [Herramientas de Programación.](#id6)
 
 <br>
 
-## Parte 1 - Modelos de Programación en Entornos Cliente/Servidor:
+## Parte 1 - Modelos de Programación en Entornos Cliente/Servidor:<a name="id1"></a>
 
 Los modelos Cliente/Servidor más comunes son los siguientes:
 
@@ -32,7 +32,7 @@ Los modelos Cliente/Servidor más comunes son los siguientes:
 
 *Fuente: [cursosdedesarrollo.com](https://cursosdedesarrollo.com/2019/11/arquitectura-cliente-servidor/)*
 
-## Parte 2 - Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
+## Parte 2 - Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:<a name="id2"></a>
 
 * Para interpretar JavaScript en web los navegadores incluyen un motor que permite que el codigo se ejecute.
 El compilador traduce el código fuente a bytecode de la manera más rápida posible y este bytecode es lo que el intérprete ejecuta.
@@ -54,7 +54,7 @@ Por último, las secciones de bytecode son remplazadas por el código optimizado
 
 *Fuentes: [tech.tribalyte.eu](https://tech.tribalyte.eu/blog-motor-de-javascript#El_motor_de_JavaScript), [comparium.app](https://comparium.app/es/blog/cross-browser-compatibility-issues/)*
 
-## Parte 3 - Lenguajes de Programación en Entorno Cliente:
+## Parte 3 - Lenguajes de Programación en Entorno Cliente:<a name="id3"></a>
 
 Los lenguajes de programación en Entorno Cliente mas usados son:
 
@@ -123,7 +123,7 @@ Los lenguajes de programación en Entorno Cliente mas usados son:
 
 *Fuente: [blog.back4app.com](https://blog.back4app.com/es/los-10-principales-lenguajes-de-desarrollo-del-lado-del-cliente/)*
 
-## Parte 4 - Características de los Lenguajes de Script. Ventajas y Desventajas:
+## Parte 4 - Características de los Lenguajes de Script. Ventajas y Desventajas:<a name="id4"></a>
 
 Para entender qué es lo que caracteriza a los lenguajes de Script, será de gran ayuda conocer en que se diferencia de los lenguajes de programación tradicionales.
 
@@ -153,7 +153,7 @@ Tras analizar las ventajas y desventajas de ambas opciones, la conclusión es qu
 
 *Fuentes: [kinsta.com](https://kinsta.com/es/blog/lenguajes-script/), [ionos.es](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-son-los-lenguajes-de-scripting/)*
 
-## Parte 5 - Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
+## Parte 5 - Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:<a name="id5"></a>
 
 La evolución de las páginas web está llevando a que el contenido de estas sea interactivo. Es por ello que desde hace varios años JavaScript se ha convertido en uno de los lenguajes de Script mas populares debido a la facil integración de su código con HTML5 y CSS.
 
@@ -173,7 +173,7 @@ Un ejemplo de una pequeña aplicacion web integrando codigo JavaScript de ambas 
 
 *Fuente: [hostinger.es](https://www.hostinger.es/tutoriales/insertar-javascript-en-html/)*
 
-## Parte 6 - Herramientas de Programación:
+## Parte 6 - Herramientas de Programación:<a name="id6"></a>
 
 las herramientas de programacion usadasn en el desarrollo web en entornos de cliente pueden dividirse en varias ramas, estas son:
 
