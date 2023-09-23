@@ -4,6 +4,18 @@
 
 Durante el desarrollo de este documento se responderán las preguntras planteadas en el enunciado del Proyecto 1.
 
+<br>
+
+# Indice:
+### 1. Modelos de Programación en Entornos Cliente/Servidor.
+### 2. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web.
+### 3. Lenguajes de Programación en Entorno Cliente.
+### 4. Características de los Lenguajes de Script. Ventajas y Desventajas.
+### 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML.
+### 6. Herramientas de Programación.
+
+<br>
+
 ## Parte 1 - Modelos de Programación en Entornos Cliente/Servidor:
 
 Los modelos Cliente/Servidor más comunes son los siguientes:
@@ -51,7 +63,7 @@ Los lenguajes de programación en Entorno Cliente mas usados son:
     - Ideal para desarrollar aplicaciones en entorno Apple.
     - Soporte de red.
     - Alto rendimiento.
-    - Excelente gestión de errores. 
+    - Excelente gestión de errores.
 
 * **React**: React fue utilizado inicialmente por Facebook para mejorar el proyecto de desarrollo web de la empresa, pero luego se convirtió en un proyecto de código abierto, a dia de hoy es usado en mas de 1,38 millones de sitios web en todo el mundo. Se caracteriza por:
     - Funcionar con JSX.
@@ -102,7 +114,6 @@ Los lenguajes de programación en Entorno Cliente mas usados son:
     - Aprovecha las funciones de Windows
     - Hace posible el uso de variables.
     - Funciona a la par con CSS.
-
 * **Elm**: Elm es una buena opción para las personas que se inician en la programación frontend. A pesar de ser altamente estricto a la hora de escribir el codigo, esto ayudará a los desarrolladores noveles a escribir códigos sin errores. Sus caracteristicas son:
     - Solo puede ejecutarse en plataformas predefinidas.
     - Lectura y mantenimiento de código sencillos.
@@ -144,11 +155,19 @@ Tras analizar las ventajas y desventajas de ambas opciones, la conclusión es qu
 
 ## Parte 5 - Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
 
-La evolución de las páginas web esta llevando a que el contenido de estas sea interactivo. Es por ello que desde hace varios años JavaScript se ha convertido en uno de los lenguajes de Script mas populares debido a la facil integración de su código con HTML5 y CSS.
+La evolución de las páginas web está llevando a que el contenido de estas sea interactivo. Es por ello que desde hace varios años JavaScript se ha convertido en uno de los lenguajes de Script mas populares debido a la facil integración de su código con HTML5 y CSS.
 
+Existen dos formas de integrar código javaScript en HTML:
 
+* **Añadir el codigo directamente en el archivo**: Gracias a que javaScript cuenta con una etiqueta propia en HTML, <code>**script**</code>, es posible integrar el codigo directamente ya sea entre las etiquetas <code>**head**</code> o las etiquetas <code>**body**</code>. En función de donde se coloque el script la carga será diferente, se recomienda colocarlo en el head para que esté separado del resto del código html, sin embargo, colocarlo en el body puede contribuir a que la velocidad de carga de la página sea mayor.
 
+* **Añadir el código en un archivo separado**: Integrar el código directamente en el archivo HTML no es recomendable, ya que es posible que varias páginas usen el mismo script, es por ello que la mejor forma de integrarlo es a través de un archivo externo. Para añadir un archivo javaScript a tu código HTML tenemos que hacerlo como si de un archivo CSS se tratase:
 
+```
+<script src="js/myscript.js"> </script>
+```
+
+Un ejemplo de una pequeña aplicacion web integrando codigo JavaScript de ambas formas seria la siguiente: [Ejemplo](/ejemplo%20parte%205/parte-5.html)
 
 <br>
 
@@ -156,3 +175,22 @@ La evolución de las páginas web esta llevando a que el contenido de estas sea 
 
 ## Parte 6 - Herramientas de Programación:
 
+las herramientas de programacion usadasn en el desarrollo web en entornos de cliente pueden dividirse en varias ramas, estas son:
+
+* **Editores de código**: Los editores de código son la herramienta usada para escribir y editar el código empleado para desarrollar las aplicaiones y páginas web. Algunos de los mas usados son Sublime text y Visual Studio Code.
+
+* **Entornos de desarrollo integrados**: Los entornos de desarrollo integrados son plataformas que reunen todas las caracteristicas necesarias para que el desarrollo se produzca en un único lugar, los mas populares son Intellij IDEA y Eclise.
+
+* **Control de versiones**: Un software de control de versiones es la herramienta que permite guardar y hacer un seguimiento de un proyecto que se esta llevando a cabo por grupo de desarrolladores, los mas conocidos son Git y SVN.
+
+* **Gestores de dependencias**: Los gestores de dependencias son aplicaciones que hacen posible el correcto funcionamiento de otros programas, ya que como su propio nombre indica les proporciona herramientas, plugins o frameworks para que estos no tengan problemas en medio del desarrollo. Los mas usados son Maven y NPM.
+
+* **Herramientas de pruebas**: Las herramientas de prueba ayudan al desarrollador creando informes que son ultiles para comprobar el correcto funcionamiento de las implementaciones que vayan siendo añadidas a un proyecto. Las mas populares son Selenium y Junit.
+
+<br>
+
+*Fuente: [tokioschool.com](https://www.tokioschool.com/noticias/herramientas-programacion/)*
+
+<br>
+
+### Proyecto realizado por Víctor Jiménez Corada 2º DAW
