@@ -7,12 +7,12 @@ Durante el desarrollo de este documento se responderán las preguntras planteada
 <br>
 
 # Indice:
-### 1. [Modelos de Programación en Entornos Cliente/Servidor.](#id1)
-### 2. [Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web.](#id2)
-### 3. [Lenguajes de Programación en Entorno Cliente.](#id3)
-### 4. [Características de los Lenguajes de Script. Ventajas y Desventajas.](#id4)
-### 5. [Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML.](#id5)
-### 6. [Herramientas de Programación.](#id6)
+### **1.** [Modelos de Programación en Entornos Cliente/Servidor.](#id1)
+### **2.** [Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web.](#id2)
+### **3.** [Lenguajes de Programación en Entorno Cliente.](#id3)
+### **4.** [Características de los Lenguajes de Script. Ventajas y Desventajas.](#id4)
+### **5.** [Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML.](#id5)
+### **6.** [Herramientas de Programación.](#id6)
 
 <br>
 
@@ -48,7 +48,7 @@ Por último, las secciones de bytecode son remplazadas por el código optimizado
 
 * Los problemas de compatibilidad multi navegador de JavaScript pueden producirse al intentar utilizar funciones modernas de JavaScript en navegadores más antiguos o versiones de navegadores obsoletas.
     - Algunas de las nuevas opciones de JavaScript que no funcionan en los navegadores más antiguos incluyen Promises, que no es compatible con Internet Explorer, y las funciones Arrow, que no son compatibles con Safari o Internet Explorer.
-    - Para solucionar estos problemas de compatibilidad lo recomendable es hace uso de aplicaciones como Caniuse para saber si la version de JavaScript es compatible con la version del navegador o Babel para transformar el codigo JavaScript para hacer uso de las ultimas funciones con la seguridad de que se adapta a los navegadores y versionas mas antiguas. Otras opciones son utilizar polyfills, archivos JS de terceros que funcionan de forma similar a las bibliotecas JS, o utilizar linters.
+    - Para solucionar estos problemas de compatibilidad lo recomendable es hacer uso de aplicaciones como Caniuse para saber si la version de JavaScript es compatible con la version del navegador o Babel para transformar el codigo JavaScript para hacer uso de las ultimas funciones con la seguridad de que se adapta a los navegadores y versionas mas antiguas. Otras opciones son utilizar polyfills, archivos JS de terceros que funcionan de forma similar a las bibliotecas JS, o utilizar linters.
 
 <br>
 
@@ -137,7 +137,7 @@ Además de estas existen mas diferencias de los lenguajes Script sobre la progrm
 |:-------------------------------------------------:|:---------------------------:|
 |            Específicos de la plataforma           |       Multiplataforma       |
 |              Mayor cantidad de código             |      Código mas ligero      |
-| Las aplicaciones creadas forman parte de un stack | Aplicaciones independientes |
+|     Las aplicaciones forman parte de un stack     | Aplicaciones independientes |
 
 * Los lenguajes de programación tradicionales son **especificos de la plataforma** mientras que los lenguajes Script son **multiplataforma**.
 
@@ -175,11 +175,11 @@ Un ejemplo de una pequeña aplicacion web integrando codigo JavaScript de ambas 
 
 ## Parte 6 - Herramientas de Programación:<a name="id6"></a>
 
-las herramientas de programacion usadasn en el desarrollo web en entornos de cliente pueden dividirse en varias ramas, estas son:
+Las herramientas de programacion usadas en el desarrollo web en entornos de cliente pueden dividirse en varias ramas, estas son:
 
 * **Editores de código**: Los editores de código son la herramienta usada para escribir y editar el código empleado para desarrollar las aplicaiones y páginas web. Algunos de los mas usados son Sublime text y Visual Studio Code.
 
-* **Entornos de desarrollo integrados**: Los entornos de desarrollo integrados son plataformas que reunen todas las caracteristicas necesarias para que el desarrollo se produzca en un único lugar, los mas populares son Intellij IDEA y Eclise.
+* **Entornos de desarrollo integrados**: Los entornos de desarrollo integrados son plataformas que reunen todas las caracteristicas necesarias para que el desarrollo se produzca en un único lugar, los mas populares son Intellij IDEA y Eclipse.
 
 * **Control de versiones**: Un software de control de versiones es la herramienta que permite guardar y hacer un seguimiento de un proyecto que se esta llevando a cabo por grupo de desarrolladores, los mas conocidos son Git y SVN.
 
