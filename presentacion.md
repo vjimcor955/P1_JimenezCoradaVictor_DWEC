@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover 
+theme: uncover
 font-size: 35px text-align: left
 ---
 
@@ -17,7 +17,7 @@ font-size: 35px text-align: left
 <!-- paginate: true -->
 <!-- backgroundImage: "linear-gradient(to bottom, #00cb6f, #fff)" -->
 
-# **Indice**
+# **Índice**
 
 **1.** Modelos de Programación en Entornos Cliente/Servidor.
 **2.** Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web.
@@ -59,9 +59,9 @@ Problemas de compatibilidad:
 
 ---
 
-# **3. Lenguajes de Programación en Entorno Cliente.** 
+# **3. Lenguajes de Programación en Entorno Cliente.**
 
-Los lenguajes de programación en Entorno Cliente mas usados son:
+Los lenguajes de programación en Entorno Cliente más usados son:
 
 * **Swift**
 * **React**
@@ -76,7 +76,7 @@ Los lenguajes de programación en Entorno Cliente mas usados son:
 
 ---
 
-# **4. Características de los Lenguajes de Script. Ventajas y Desventajas.** 
+# **4. Características de los Lenguajes de Script. Ventajas y Desventajas.**
  
 |        **Programación tradicional**       |    **Lenguajes de Script**    |
 |:-----------------------------------------:|:-----------------------------:|
@@ -88,7 +88,7 @@ Los lenguajes de programación en Entorno Cliente mas usados son:
 
 ---
 
-# **5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML.** 
+# **5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML.**
  
 Existen dos formas de integrar código JavaScript en HTML:
 
@@ -104,7 +104,7 @@ Existen dos formas de integrar código JavaScript en HTML:
 
 # **6. Herramientas de Programación.**
 
-Las herramientas de programacion usadasn en el desarrollo web en entornos de cliente pueden dividirse en varias ramas, estas son:
+Las herramientas de programación usadas en el desarrollo web en entornos de cliente pueden dividirse en varias ramas, estas son:
 
 * **Editores de código**: Sublime text y Visual Studio Code.
 
@@ -129,7 +129,7 @@ Las herramientas de programacion usadasn en el desarrollo web en entornos de cli
 * Parte 1: [cursosdedesarrollo.com](https://cursosdedesarrollo.com/2019/11/arquitectura-cliente-servidor/)
 * Parte 2: [tech.tribalyte.eu](https://tech.tribalyte.eu/blog-motor-de-javascript#El_motor_de_JavaScript), [comparium.app](https://comparium.app/es/blog/cross-browser-compatibility-issues/)
 * Parte 3: [blog.back4app.com](https://blog.back4app.com/es/los-10-principales-lenguajes-de-desarrollo-del-lado-del-cliente/)
-* Parte 4: [kinsta.com](https://kinsta.com/es/blog/lenguajes-script/), [ionos.es](https://www.ionos.es/digitalguide/paginas-web*esarrollo-web/que-son-los-lenguajes-de-scripting/)
+* Parte 4: [kinsta.com](https://kinsta.com/es/blog/lenguajes-script/), [ionos.es](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-son-los-lenguajes-de-scripting/)
 * Parte 5: [hostinger.es](https://www.hostinger.es/tutoriales/insertar-javascript-en-html/)
 * Parte 6: [tokioschool.com](https://www.tokioschool.com/noticias/herramientas-programacion/)
 
